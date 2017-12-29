@@ -836,7 +836,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <!-- maybe there is a way to generate a reasonable internal-id      -->
         <section class="exercises">
             <h1 class="heading">
-                <span class="type">Exercises</span>
+                <span class="type">To Do List</span>
                 <span class="codenumber"><xsl:apply-templates select="." mode="number" /></span>
                 <span class="title"><xsl:apply-templates select="." mode="title-full" /></span>
             </h1>
@@ -5181,6 +5181,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <xsl:apply-templates select="." mode="title-simple" />
                 </title>
                 <meta name="Keywords" content="Authored in PreTeXt" />
+                <!-- TWITTER CARDS MAYBE -->
+                <meta name="twitter:card" content="summary"/>
+                <meta name="twitter:site" content="@matthematician"/>
+                <meta name="twitter:creator" content="@matthematician"/>
+                <meta name="twitter:title" content="Applied Calculus for Business"/>
+                <meta name="twitter:description" content="An open, online textbook companion to a project-based undergraduate course in business calculus."/>
+                <meta name="twitter:image" content="http://matthematics.com/acb/images/profit.png"/>
                 <!-- http://webdesignerwall.com/tutorials/responsive-design-in-3-steps -->
                 <meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
                 <!-- ########################################## -->
@@ -7128,6 +7135,13 @@ This is a Java Applet created using GeoGebra from www.geogebra.org - it looks li
             <xsl:apply-templates select="." mode="title-simple" />
             </title>
             <meta name="Keywords" content="Authored in PreTeXt" />
+            <!-- TWITTER CARDS MAYBE -->
+                <meta name="twitter:card" content="summary"/>
+                <meta name="twitter:site" content="@matthematician"/>
+                <meta name="twitter:creator" content="@matthematician"/>
+                <meta name="twitter:title" content="Applied Calculus for Business"/>
+                <meta name="twitter:description" content="An open, online textbook companion to an project-based undergraduate course in business calculus."/>
+                <meta name="twitter:image" content="http://matthematics.com/acb/images/profit.png"/>
             <!-- http://webdesignerwall.com/tutorials/responsive-design-in-3-steps -->
             <meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
             <!-- jquery used by sage, webwork, knowls -->
@@ -7228,6 +7242,13 @@ This is a Java Applet created using GeoGebra from www.geogebra.org - it looks li
     <html lang="{$document-language}"> <!-- dir="rtl" here -->
         <head>
             <meta name="Keywords" content="Authored in PreTeXt" />
+            <!-- TWITTER CARDS MAYBE -->
+                <meta name="twitter:card" content="summary"/>
+                <meta name="twitter:site" content="@matthematician"/>
+                <meta name="twitter:creator" content="@matthematician"/>
+                <meta name="twitter:title" content="Applied Calculus for Business"/>
+                <meta name="twitter:description" content="An open, online textbook companion to a project-based undergraduate course in business calculus."/>
+                <meta name="twitter:image" content="http://matthematics.com/acb/images/profit.png"/>
             <meta name="viewport" content="width=device-width,  initial-scale=1.0, user-scalable=0, minimum-scale=1.0, maximum-scale=1.0" />
 
             <!-- jquery used by sage, webwork, knowls -->
