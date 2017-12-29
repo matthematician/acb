@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2015 Robert A. Beezer
+
+This file is part of MathBook XML.
+
+MathBook XML is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 or version 3 of the
+License (at your option).
+
+MathBook XML is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************-->
+<!-- This file was originally part of the book     -->
+<!-- (as copied on 2015/07/12)                     -->
+<!--                                               -->
+<!--   Abstract Algebra: Theory and Applications   -->
+<!--                                               -->
+<!-- Copyright (C) 1997-2014  Thomas W. Judson     -->
+
+
+    
+    <chapter xml:id="marketing-decision5">
+        <title>Price Discrimination</title>
+
+        <introduction>Hi there.
+
+        </introduction>
+
+         <section xml:id="decision5-motiv">
+            <title>Motivation 5</title>
+
+
+        </section>
+        <section xml:id="decision5-math">
+            <title>Learn It 5</title>
+
+            <exercises>
+                <exercise>
+                    <title>Read &amp; Discuss: [CH] Chapter 3, The Integral</title>
+                    <statement>
+                        <p></p>
+                        <p><em>Brief synopsis:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap3.pdf"/></p>
+                        <p><em>Full text:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap3-all.pdf"/></p>
+                        <p>In your reading and discussion, pay particular attention to <term>Sections 3.2 and 3.5: The Fundamental Theorem and Applications of Integrals</term> (pp. 16-19 and 29-35 of the synopsis; pp. 181-187 and 213-215 of full text).</p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <title>Practice in WeBWoRK</title>
+                    <statement>
+                        <p>Current students, please click below to access WeBWoRK assignments for these topics. Log in with your BSU username and password.</p>
+                        <p><em>09:</em> Antiderivatives <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/09_-_The_Chain_Rule_and_Antiderivatives_I/"/></p>
+                        <p><em>10:</em> The Fundamental Theorem of Calculus <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/10_-_Antiderivatives_Area_and_the_Fundamental_Theorem_of_Calculus/"/></p>
+
+                    </statement>
+                </exercise>
+            </exercises>
+
+
+        </section>
+        <section xml:id="decision5-appl">
+            <title>Apply It 5</title>
+
+
+        </section>
+        <section xml:id="decision5-proj">
+            <title>Decision Report 5</title>
+
+
+            <p>In your previous decision (<xref ref="decision4-proj"/>), your team set an optimal quantity and price for producing your product. At this price point, a maximum amount of profit would be made. However, your solution assumes that every consumer pays the same price for your product. When you set your price point in the previous decision report, there were some consumers who would buy at your price but <em>would have been willing to pay more</em>. The example data below compares one test market to the optimal solution:</p>
+    
+            <p><pre>
+            National Quantity   Price   Total Revenue   Total Cost  Total Profit
+            q (thousand)        p ($/u) R ($thous)      C ($thous)  P ($thous)
+
+Market #4   1181                299.29  353,457         311,768     41,688
+(Optimal)   1262                285.88  360,836         318,678     42,158
+            </pre></p>
+
+        
+        <p>If we choose to set a price of <m>p = \$285.88</m> for our product, we'll sell <m>q=1,262</m> thousand units. But test market #4 shows that, <em>even at a higher price</em> of <m>p = \$299.29</m>, <em>we still would have sold</em> most of those units, <m>q = 1,181</m> thousand.</p>
+
+        <p>If we could identify consumers who were more like those in this test market, and charge them a higher price, we could make additional revenue. This practice is known as <term>price discrimination</term>, and is one factor that helps explain (for example) why gasoline is more expensive on Cape Cod than it is 10 miles away in Plymouth. If we charged the higher price for the first 1,181 thousand units and the lower price for the remaining units, we would still sell all our quantity, but would make an <em>additional</em> revenue of
+        <me> \Delta R = q\, \Delta p = (1181)\bigl(299.29 - 285.88) = (1181)(13.41) = 15837.21 {\rm \; thousand\; dollars} </me> as shown in the diagrams below. This additional revenue is known as <term>consumer surplus</term>, and if the additional costs of implementing a price discrimination plan are low, this revenue can be largely realized as additional profit.</p>
+        
+        <p>
+            <figure>
+            <image source="img/surplusgraphs.png" width="100%"/>
+            <caption>Potential additional revenue if price discrimination were practiced using (a) the optimal price and the price from test market #4 only, and (b) the "ideal" situation in which each consumer pays their maximum price --- this total amount is the consumer surplus.</caption>
+        </figure>
+        </p>
+        
+        <p>After your last recommendation, your Vice President of National Sales has come back to your team with a challenge. He's satisfied with your analysis but wants to know if there's any way that a price discrimination scheme could generate an additional <em>$100 million</em> of sales revenue for your product. That additional revenue, he says, could make or break whether your product is approved for production.</p>
+
+        <exercises>
+                <exercise xml:id="decision5-exer">
+                    <title>Decision Report 5: Is price discrimination worth it?</title>
+                    <statement>
+                        <p></p>
+                        <p><em>Download:</em> <url href="pdf/marketing-decision5.pdf">Click to download this Decision Report assignment (PDF).</url></p>
+        
+                        <p><em>Decide:</em> Respond to your VP's request: can price discrimination for your product generate an additional $100 million of sales revenue? In your memo, include both a recommendation for a two-tier price discrimination scheme such as in Figure (a), and a prediction of the <em>total</em> amount of consumer surplus for your product as in Figure (b).</p>
+        
+                        <p><em>Deliver:</em> Your team should generate graphs similar to those in Figures (a) and (b) for your price discrimination plans. (Annotate them using the Drawing Tools in Excel or Desmos.) Also, completely show the calculations you used to determine the revenue for each plan, including the definite integral that computes total consumer surplus.</p>
+                    </statement>
+                </exercise>
+            </exercises>
+
+
+
+        </section>
+    </chapter>
+

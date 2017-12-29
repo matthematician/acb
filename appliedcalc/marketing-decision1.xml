@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2015 Robert A. Beezer
+
+This file is part of MathBook XML.
+
+MathBook XML is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 or version 3 of the
+License (at your option).
+
+MathBook XML is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************-->
+<!-- This file was originally part of the book     -->
+<!-- (as copied on 2015/07/12)                     -->
+<!--                                               -->
+<!--   Abstract Algebra: Theory and Applications   -->
+<!--                                               -->
+<!-- Copyright (C) 1997-2014  Thomas W. Judson     -->
+
+
+
+<!-- % TWJ, 2010/03/31 -->
+<!-- % Chapters now begin with Chapter 1 -->
+
+
+
+    <chapter xml:id="marketing-decision1">
+        <title>Sizing the Market</title>
+
+        <introduction>
+            <p>The first task in any data-driven decision process is to make sense of your data. In the <em>Market It!</em> project, you have a limited set of data that was gathered by your marketing division from a collection of "test markets," each of which is a representative sample of the entire national market for your product. However, the test markets each have different sizes and were tested at different price points. Your first task therefore is as follows:</p>
+
+            <proposition>
+                <title>Standardize your data to the national market</title>
+                <statement><p>Determine what quantity <m>q</m> of your product would sell in the <em>national</em> market at each tested price point <m>p</m>, by scaling up the results from each test market proportionally.</p>
+                </statement>
+            </proposition>
+
+            <p>The key quantitative reasoning strategy for this decision involves no calculus and little algebra; instead, it is an instance of <em>proportional reasoning</em>. Mathematically, the same strategy you might use to scale up a cookie recipe to feed a crowd is the strategy you'll use to scale up the demand in each test market to predict demand in the nationwide market for your product.</p>
+
+        </introduction>
+
+        <section xml:id="decision1-motiv">
+            <title>Motivation 1</title>
+
+
+        </section>
+
+        <!--
+        <section xml:id="decision1-math">
+            <title>Learn It 1</title>
+
+
+        </section>
+        <section xml:id="decision1-appl">
+            <title>Apply It 1</title>
+
+
+        </section>
+    -->
+        <section xml:id="decision1-proj">
+            <title>Decision Report 1</title>
+
+            <p>Your company's marketing department has completed a study in a number of test markets for your product around the country. Your marketing data file contains the results of this study, formatted as shown in this example:</p>
+        
+        <p><pre>
+Market #    Market Size     Price       Projected Sales
+    1       144,900         $265.95     570 
+        </pre></p>
+            
+        <p>In other words, in this example, in test market #1:
+            <ol>
+                <li> There were a total of 144,900 potential customers in this test market;</li>
+                <li> A sample of potential customers were asked: <em>Would you buy our product at $265.95 each?</em></li>
+                <li> Based on their responses, the study predicted a total of 570 items would sell in this test market, at this price.</li>
+            </ol></p>
+
+        <p>Your data also indicates the approximate size of the potential <em>national</em> market for your product, which is much larger than the test markets studied. Meanwhile, your Vice President of National Sales, excited about your product's sales potential, wants to set a sales goal of <strong>1.5 million</strong> units on the national market for your new product.</p>
+
+
+
+            <exercises>
+            <exercise xml:id="decision1-exer">
+                <title>Decision Report 1: Is this sales goal realistic?</title>
+
+                <statement>
+                    <p></p>
+                    <p><em>Download:</em> <url href="pdf/marketing-decision1.pdf">Click to download this Decision Report assignment (PDF).</url></p>
+
+                    <p><em>Decide:</em> Does your test marketing data support the possibility of selling 1.5 million units on the national market, if the price were right? Write a short memo to manage your Vice President's expectations, explaining in your analysis how your data supports your conclusion.</p>
+
+                    <p><em>Deliver:</em> Use test marketing data to construct a table of national market quantities <m>q</m> (measured in thousands of units) vs. the unit price <m>p</m> at which that quantity would sell (measured in dollars per unit).</p>
+                </statement>
+            </exercise>
+        </exercises>
+        </section>
+    </chapter>
+

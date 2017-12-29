@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2015 Robert A. Beezer
+
+This file is part of MathBook XML.
+
+MathBook XML is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 or version 3 of the
+License (at your option).
+
+MathBook XML is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************-->
+<!-- This file was originally part of the book     -->
+<!-- (as copied on 2015/07/12)                     -->
+<!--                                               -->
+<!--   Abstract Algebra: Theory and Applications   -->
+<!--                                               -->
+<!-- Copyright (C) 1997-2014  Thomas W. Judson     -->
+
+
+
+    
+    <chapter xml:id="marketing-decision4">
+        <title>Maximizing Profit</title>
+
+        <introduction>Hi there.
+
+        </introduction>
+
+         <section xml:id="decision4-motiv">
+            <title>Motivation 4</title>
+
+
+        </section>
+        <section xml:id="decision4-math">
+            <title>Learn It 4</title>
+
+            <exercises>
+                <exercise>
+                    <title>Read &amp; Discuss: [CH] Chapter 2, The Derivative</title>
+                    <statement>
+                        <p></p>
+                        <p><em>Brief synopsis:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap2.pdf"/></p>
+                        <p><em>Full text:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap2-all.pdf"/></p>
+                        <p>In your reading and discussion, pay particular attention to <term>Sections 2.6-2.7: The Second Derivative and Optimization</term> (pp. 29-40 of the synopsis; pp. 116-134 of full text).</p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <title>Practice in WeBWoRK</title>
+                    <statement>
+                        <p>Current students, please click below to access WeBWoRK assignments for these topics. Log in with your BSU username and password.</p>
+                        <p><em>06:</em> Second Derivative, Maxes, Mins <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/06_-_The_Second_Derivative_and_Finding_Maxes_and_Mins/"/></p>
+                        <p><em>07:</em> Concavity, Derivative Rules <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/07_-_Maxes_and_Mins__Concavity__and__More_Derivative_Rules/"/></p>
+                        <p><em>08:</em> Optimization <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/08_-_The_Quotient_Rule_and_Optimization_I/"/></p>
+
+                    </statement>
+                </exercise>
+            </exercises>
+
+        </section>
+        <section xml:id="decision4-appl">
+            <title>Apply It 4</title>
+
+
+        </section>
+        <section xml:id="decision4-proj">
+            <title>Decision Report 4</title>
+
+            <p>In your previous decision report (<xref ref="decision3-proj"/>), you determined formulas for revenue <m>R(q)</m> in thousands of dollars, and marginal revenue <m>MR(q)</m> in dollars per unit, and predicted approximately what quantity would maximize revenue. The data table you created also related quantity, price, revenue, and marginal revenue predicted by several of your test markets, such as in this example:</p>
+    
+            <p><pre>
+                National Quantity   Price       Revenue     Marginal Revenue
+Market #        q (thousands)       p ($/unit)  R ($thous)  MR ($/unit)
+
+    1           1377                265.76      365,893     15.56
+     </pre></p>
+            
+    <p>The data in this example indicates that, if 1,377 thousand units were produced and sold at $265.76 per unit, a total sales revenue of $365,893 thousand dollars would be earned --- <em>and</em>, each <em>additional</em> unit produced from this quantity would <em>increase</em> revenue by $15.56.</p>
+    
+    <p>However, would that increase in revenue be worth it? The answer to this question must balance marginal revenue with <term>marginal cost</term>, the <em>additional</em> cost that would be incurred to produce that one <em>additional</em> unit. In the example, when more than 1,200 thousand units are produced, the variable cost of producing one more unit is $72, so one additional unit <em>would cost more to produce than it would make in additional sales revenue</em>:</p>
+      
+      <p><pre>
+            Quantity    Price   Revenue     Marg. Rev.  Marg. Cost  Marg. Profit
+Market #    q (thous)   p ($/u) R ($thous)  MR ($/unit) MC ($/unit) MP ($/unit)
+
+    1       1377        265.76  365,893     15.56       72          -56.44
+      </pre></p>   
+    
+         
+         Therefore, at this production level and price point, producing one more unit will result in a net <em>loss</em> of $56.44. At this stage, the product is being "overproduced," and producing one <em>fewer</em> unit would result in a net <em>increased</em> profit of $56.44 --- suggesting that the point of maximum profit is likely <em>less</em> than <m>q=1377</m> thousand units.
+
+            <exercises>
+                <exercise xml:id="decision4-exer">
+                    <title>Decision Report 4: How to maximize profit?</title>
+                    <statement>
+                        <p></p>
+                        <p><em>Download:</em> <url href="pdf/marketing-decision4.pdf">Click to download this Decision Report assignment (PDF).</url></p>
+
+                        <p><em>Decide:</em> What quantity of your product should be produced in order to earn a <em>maximum</em> amount of profit, neither over- nor under-producing? What unit price must be charged at this optimal quantity, and how much total revenue, cost, and profit would there be at this quantity? Report your findings in a preliminary memo to your Vice President, including a table of data and/or graph.</p>
+         
+                        <p><em>Deliver:</em> In addition to adding marginal cost and marginal profit columns to your table of values from the previous decision, your team should record the algebra used in determining the point(s) of maximum profit using marginal revenue and marginal cost. Add your optimal solution to your table as an additional row.</p>
+
+                    </statement>
+                </exercise>
+
+            </exercises>
+
+        </section>
+    </chapter>

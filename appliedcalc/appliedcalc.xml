@@ -48,12 +48,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <!--<subtitle>A Project-Based Approach to Business Decision-Making</subtitle>-->
 
         <xi:include href="./frontmatter.xml" />                 
-        <xi:include href="./functions-modeling-data.xml" />                        
-        <xi:include href="./derivatives-marginals.xml" />                    
 
-        
-        <xi:include href="./integrals-surplus.xml" />                      
-        <xi:include href="./partial-derivs.xml" />                      
+
+        <xi:include href="./marketing-decision1.xml" />                 
+        <xi:include href="./marketing-decision2.xml" />                 
+        <xi:include href="./marketing-decision3.xml" />                 
+        <xi:include href="./marketing-decision4.xml" />                 
+        <xi:include href="./marketing-decision5.xml" />
+
+                                           
 
 
 

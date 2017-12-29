@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<!--********************************************************************
+Copyright 2015 Robert A. Beezer
+
+This file is part of MathBook XML.
+
+MathBook XML is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 2 or version 3 of the
+License (at your option).
+
+MathBook XML is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
+*********************************************************************-->
+<!-- This file was originally part of the book     -->
+<!-- (as copied on 2015/07/12)                     -->
+<!--                                               -->
+<!--   Abstract Algebra: Theory and Applications   -->
+<!--                                               -->
+<!-- Copyright (C) 1997-2014  Thomas W. Judson     -->
+
+
+    
+    <chapter xml:id="marketing-decision3">
+        <title>Total &amp; Marginal Revenue</title>
+
+        <introduction>Hi there.
+
+        </introduction>
+
+         <section xml:id="decision3-motiv">
+            <title>Motivation 3</title>
+
+
+        </section>
+        <section xml:id="decision3-math">
+            <title>Learn It 3</title>
+
+<exercises>
+                <exercise>
+                    <title>Read &amp; Discuss: [CH] Chapter 2, The Derivative</title>
+                    <statement>
+                        <p></p>
+                        <p><em>Brief synopsis:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap2.pdf"/></p>
+                        <p><em>Full text:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap2-all.pdf"/></p>
+                        <p>In your reading and discussion, pay particular attention to <term>Sections 2.4-2.5: Rates in Real Life and Derivatives of Formulas</term> (pp. 10-17 of the synopsis; pp. 93-103 of full text).</p>
+                    </statement>
+                </exercise>
+                <exercise>
+                    <title>Practice in WeBWoRK</title>
+                    <statement>
+                        <p>Current students, please click below to access WeBWoRK assignments for these topics. Log in with your BSU username and password.</p>
+                        <p><em>03:</em> Rates of Change <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/03_-_Compound_Interest_II_and_Rates_of_ChangeI/"/></p>
+                        <p><em>04:</em> Derivatives <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/04_-_Rates_of_Change_II_and_Derivatives_I/"/></p>
+                        <p><em>05:</em> Marginal Cost <url href="https://webwork.bridgew.edu/webwork2/Math-144-Salomone-w18/05_-_Derivatives_II_and_Marginal_Cost/"/></p>
+
+                    </statement>
+                </exercise>
+            </exercises>
+
+
+
+
+        </section>
+        <section xml:id="decision3-appl">
+            <title>Apply It 3</title>
+
+
+        </section>
+        <section xml:id="decision3-proj">
+            <title>Decision Report 3</title>
+
+            <p>In your previous decision report (<xref ref="decision2-proj" />), your team determined a quadratic function <m>p = D(q)</m> which best fits the demand relationship between quantity of items sold <m>q</m> (in thousands) and sale price <m>p</m> (in dollars per unit) on the national market for your product. This function looked something like the example below:
+            <me> p = D(q) = -0.0000535\, q^2 - 0.034403\, q + 414.535. </me></p>
+    
+            <p>This relationship between price and quantity permits your team to also determine the <term>sales revenue</term> --- that is, the total amount of income your company would take in from sales --- at each quantity. This is also a function <m>R(q)</m>, defined as the amount of money earned by selling <m>q</m> thousand units at a price of <m>p</m> dollars per unit. In other words, revenue is quantity multiplied by price, but price is given by your demand function: in this example,
+            <me> R(q) = q\, p = q \bigl( -0.0000535\, q^2 - 0.034403\, q + 414.535 \bigr) </me>
+    
+    (Because <m>q</m> is measured in thousands of units, <m>R(q)</m> is measured in thousands of dollars.)</p>
+    
+    <p>Meanwhile, the <term>marginal revenue</term> at a given quantity refers to the <em>additional</em> amount of revenue that would be earned by producing one <em>additional</em> unit of your product. More precisely, marginal revenue is the (instantaneous) rate of change of revenue with respect to a change in quantity, which is the derivative:
+    
+    <me> MR(q) \quad {\it or} \quad R'(q) = -0.0001605\, q^2 - 0.068806\, q + 414.535. </me></p>
+    
+    <p>Marginal revenue, being a slope on the graph of <m>q</m> in thousands of units vs. <m>R</m> in thousands of dollars, has units of dollars per unit. Because it is its derivative, <m>MR</m> can tell you whether and how much an increase in quantity will increase revenue (if <m>MR</m> is positive), or decrease revenue (if <m>MR</m> is negative).</p>
+    
+    
+    <p>Now that you've done some analysis, the project lead who was responsible for the test marketing data wants a status report. What does each of the test markets predict about total revenue on the national market?</p>
+
+
+
+            <exercises>
+                <exercise xml:id="decision3-exer">
+                    <title>Decision Report 3: Where will sales revenue top out?</title>
+                    <statement>
+                        <p></p>
+                        <p><em>Download:</em> <url href="pdf/marketing-decision3.pdf">Click to download this Decision Report assignment (PDF).</url></p>
+
+                        <p><em>Decide:</em> Which one of the test market price points predicts the highest amount of national sales revenue? Between which two prices is the actual maximum possible revenue likely to be found? Explain your findings in a memo to the test marketing project lead, complete with a table of data and a graph.</p>
+    
+                        <p><em>Deliver:</em> Determine formulas for revenue <m>R(q)</m> and marginal revenue <m>MR(q)</m> as a function of quantity in the national market (in thousands), as well as a table of values showing <m>q</m>, <m>p</m>, <m>R</m>, and <m>MR</m> at at least four different price points from your test markets. </p>
+
+                    </statement>
+
+                </exercise>
+            </exercises>
+
+        </section>
+    </chapter>
+
+
