@@ -42,13 +42,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="decision3-math">
             <title>Learn It 3</title>
 
-<exercises>
+            <exercises>
                 <exercise>
                     <title>Read &amp; Discuss: [CH] Chapter 2, The Derivative</title>
                     <statement>
                         <p></p>
-                        <p><em>Brief synopsis:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap2.pdf"/></p>
-                        <p><em>Full text:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/pdf/hofcal-chap2-all.pdf"/></p>
+                        <p><em>Brief synopsis:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/appliedcalc/pdf/hofcal-chap2.pdf"/></p>
+                        <p><em>Full text:</em> <url href="http://via.hypothes.is/http://matthematics.com/acb/appliedcalc/pdf/hofcal-chap2-all.pdf"/></p>
                         <p>In your reading and discussion, pay particular attention to <term>Sections 2.4-2.5: Rates in Real Life and Derivatives of Formulas</term> (pp. 10-17 of the synopsis; pp. 93-103 of full text).</p>
                     </statement>
                 </exercise>
