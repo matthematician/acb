@@ -82,7 +82,10 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         </section>
         <section xml:id="decision2-appl">
             <title>Apply It 2</title>
-
+            <p>The <m>x</m>- and <m>y</m>-intercepts of an applied function model almost always tell us something meaningful and interesting. Finding them is a snap once we have a model equation, using what we know from precalculus:</p>
+            <ol><li>To find a <m>y</m>-intercept, set <m>x</m> equal to zero and solve for <m>y</m>. That is, compute the value of <m>y=f(0)</m>. (This usually requires only arithmetic and no algebra.)</li>
+            <li>To find a <m>x</m>-intercept, set <m>y</m> equal to zero and solve for <m>x</m>. This often requires considerably more algebraic technique, and is sometimes not feasible without technology.</li></ol>
+            <p>Here's how that plays out with Decision Report 2's demand function:<video youtube="iX0MuuybIWU"/></p>
 
         </section>
         <section xml:id="decision2-proj">
