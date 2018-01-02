@@ -53,5 +53,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     <preface>
         <video youtube="TyCsV7eO_BU" />
     </preface>
+    <section xml:id="section-syllabus">
+        <p>Welcome to <term>MATH 144 Applied Calculus for Business</term>. A discussion of the syllabus and grading system from the first day of the semester is here:</p>
+        <video youtube="pCXbGbII2sM"/>
+    </section>
 
 </frontmatter>
