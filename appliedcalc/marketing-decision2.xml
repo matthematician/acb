@@ -48,6 +48,11 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="decision2-motiv">
             <title>Motivation 2</title>
 
+            <p>Our goal is to determine a <term>demand function</term>, a mathematical mode <m>p = D(q)</m> which best explains the relationship between the quantity sold in the national market <m>q</m> and the unit price we'd charge to sell that quantity, <m>q</m>.</p>
+            <p>To get there, take every data scientist's recommendation for a first step in any data project: make a scatter plot. Then, use technology to fit an equation to that data. For our project, we'll choose a quadratic equation (a polynomial of degree 2). That means we'll get a demand function equation that matches the template <mdn><mrow>y\amp = Ax^2 +Bx+C \amp \text{or, in context,}</mrow><mrow> p = D(q) \amp = Aq^2 + Bq+C</mrow></mdn>
+            The question is, what values of the coefficients <m>A,B,C</m> will give us an equation that <emph>best</emph> matches the data?</p>
+            <p>Do it with <emph>Excel</emph>: <video youtube="KmCCFt4qDE0"/></p>
+            <p>Do it with <url href="http://www.desmos.com">Desmos</url>: <video youtube="00OWTyN241Q"/></p>
 
         </section>
         <section xml:id="decision2-math">

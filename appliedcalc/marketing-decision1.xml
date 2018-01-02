@@ -50,7 +50,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
         <section xml:id="decision1-motiv">
             <title>Motivation 1</title>
-
+            <p>Each of your test markets represents only one small (though representative) slice of the potential nationwide market for your product. The first step is therefore to <term>scale up</term> each test market to answer the question: based on how many we would sell in this market, how many would we sell in the (much larger) national market as a result?</p>
+            <p><video youtube="AIQZ0p3HLjs"/></p>
 
         </section>
 
