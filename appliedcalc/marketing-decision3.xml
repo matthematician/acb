@@ -168,6 +168,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="decision3-appl">
             <title>Apply It 3</title>
 
+            <p>Let's turn our attention to the revenue function, to prepare for the upcoming decision report. What can we learn from marginal analysis of the revenue function, using each of the Rule of Four (<xref ref="derivs-four"/>)?</p>
+            <p><url href="https://www.desmos.com/calculator/7h7fb6licj">Click to launch interactive.<image source="img/revenue-desmos.png" width="80%"/></url></p>
+
 
         </section>
         <section xml:id="decision3-proj">
