@@ -30,17 +30,114 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     <chapter xml:id="marketing-decision3">
         <title>Total &amp; Marginal Revenue</title>
 
-        <introduction>Hi there.
+        <introduction><p>After the previous two Decision Reports you now have a full understanding of the demand for your product --- that is, you've modeled the relationship between the price point you charge <m>p</m> and the total number of sales quantity in the national market at that price <m>q</m>, and that relationship is captured in the demand function <m>p = D(q)</m>.</p>
+        <p>The next step is to go beyond demand and construct function models for <term>sales revenue</term>, defined as the total dollar amount that would be collected from selling <m>q</m> units at a price of <m>p</m> dollars each: <me>R(q) = q\cdot p = q\cdot D(q)</me>
+        We'll also ultimately want a function model for the <term>total cost</term> of production <m>C(q)</m>, so that at any given production quantity we can compare revenue and cost to determine the net <term>profit</term>, which is defined to be their difference: <me>P(q) = R(q) - C(q)</me> (In other words, profit is the amount of money your firm can "keep" after paying a total cost of <m>C(q)</m> dollars to produce <m>q</m> units and then collecting <m>R(q)</m> dollars of revenue from selling those units.)</p>
+        <p>The key tool in the next decision is "marginal analysis:" the study not only of the functions' values themselves, but of how those values <em>change</em> in response to changes in quantity. At a certain level of production <m>q</m>, would increasing production have a positive effect on sales revenue (if so, we would say that "marginal revenue is positive")? Or a negative effect ("marginal revenue is negative")? </p>
+        <proposition>
+            <title>Decision Report 3</title>
+            <statement>
+                <p>At which of your target markets' price points is the marginal sales revenue for your product positive? Negative? In which market(s) are the prices and quantities closest to those that would lead to a <em>maximum</em> in sales revenue?
+                </p>
+            </statement>
+
+        </proposition>
 
         </introduction>
 
          <section xml:id="decision3-motiv">
             <title>Motivation 3</title>
 
+            <introduction>
+                <p> </p>
+            </introduction>
+            
+
+            <subsection xml:id="derivs-motiv">
+                <title>Derivatives: The Why</title>
+
+   <p>We could begin this discussion by focusing again on the demand function from our previous Decision Reports. What can we learn from how this function <em>changes</em> from one point to the next, that is, how a change in the independent variable quantity (<m>q</m>) effects a change in the dependent variable price (<m>p = D(q)</m>)?</p>
+
+            <p><url href="https://www.desmos.com/calculator/ou4p2shwcm">Click here to launch interactive. <image width="80%" source="img/demandgraph-3.png"/></url></p>
+
+            <p>In this interactive's default state it shows that, if <m>q=400</m> thousand units of my product are being produced, and if I were to <em>increase</em> my production quantity, I would need to <em>decrease</em> my unit price in order to sell them all. Specifically, <md><mrow xml:id="marginal-demand">\text{For each additional thousand units I produce, I'd have to drop the unit price by $0.37.}</mrow></md> We call this a "marginal" analysis, or a computation of the marginal demand function.</p>
+
+            <definition xml:id="definition-marginal">
+                <title>Marginal function</title>
+                <statement>
+                    <p>Let <m>f(q)</m> be a function whose independent variable is <m>q</m>, the quantity of a product or service produced for sale.</p>
+                    <p>The <term>marginal function</term> <m>Mf(q)</m> measures the amount this function's value would <em>change</em> as a result of <em>increasing</em> the production <m>q</m> by a single unit.</p>
+                </statement>
+                <description>
+                    <p>This is typically defined for <m>f</m> being demand, revenue, cost, or profit. For example, if <m>f = R</m> is a revenue function, then <m>MR(60) = </m> "at a production of <m>q=60</m> thousand units, how much revenue would be earned by producing 'one more' unit?"</p>
+                </description>
+            </definition>
+
+            <p>Referring back to the marginal demand computation in <xref ref="marginal-demand"/>, where we found in our example that <m>MD(400) \approx -0.37</m>, we'll see next that this quantity can be expressed and communicated in four important ways: <ol><li>Numerically, as a rate of change: "<m>-\$0.37</m> per thousand units of increase."</li><li>Graphically, as the <em>slope</em> of the demand graph at <m>q=400</m>, or more specifically the slope of a line drawn tangent to the grpah at this point, as in the purple line below: <image source="img/demandgraph-slope.png" width="80%"/></li><li>In writing, as in <xref ref="marginal-demand"/>, and lastly,</li><li>In a formula, by deriving an expression for <m>MD(q)</m> and then evaluating it at <m>q=400</m>. Just how we <em>get</em> that formula is the subject of <xref ref="decision3-math"/>.</li></ol></p>
+
+            </subsection>
+
+            <subsection xml:id="derivs-four">
+                <title>Derivatives: The What, and the Rule of Four</title>
+
+                <p><term>Numerical: Derivative as a Rate of Change</term>
+
+            </p>
+            <p><term>Graphical: Derivative as a Slope</term>
+
+        </p>
+        <p><term>Verbal: Derivative as a Measure of Marginal Change</term>
+
+    </p>
+
+        <p><term>Algebraic: Derivative as a Function</term>
+
+    </p>
+
+            </subsection>
 
         </section>
         <section xml:id="decision3-math">
             <title>Learn It 3</title>
+
+            <subsection xml:id="derivs-how">
+                <title>Derivatives: The How</title>
+
+                <theorem xml:id="theorem-powerrule">
+                    <title>The Power Rule for Derivatives</title>
+                    <statement>
+                        <p>The derivative of any power function <m>f(x) = x^n</m> is <me>f'(x) = n\, x^{n-1}.</me></p>
+                    </statement>
+                    <description>
+                        <p>In other words, to find the derivative of a function defined by a (constant) power of <m>x</m>, you can: <ol><li><em>Multiply</em> the expression by the exponent, and then</li><li><em>Decrease</em> the exponent by one.</li></ol></p>
+                    </description>
+                </theorem>
+
+                <theorem xml:id="theorem-derivativelinear">
+                    <title>Linearity of Derivatives</title>
+                    <statement>
+                        <p>The derivative of a sum (or difference, or scalar multiple) of functions is the same as the sum (or difference, or scalar multiple) of their derivatives. 
+                        </p>
+                        <p>That is, for any functions <m>f(x), g(x)</m> and any constant <m>c</m>, we have: <ol><li><m>\bigl( f(x) + g(x) \bigr)' = f'(x) + g'(x)</m></li><li><m>\bigl( f(x) - g(x) \bigr)' = f'(x) - g'(x)</m></li><li><m>\bigl( c\cdot f(x) \bigr)' = c \cdot f'(x).</m></li></ol></p>
+                    </statement>
+                    <description>
+                        <p>This theorem allows us to take derivatives of sums, differences, and multiples simply by individually taking the derivative of each term.</p>
+                    </description>
+                </theorem>
+
+                <theorem xml:id="theorem-exprule">
+                    <title>Derivatives of Exponential Functions</title>
+                    <statement>
+                        <p>The derivative of any exponential function <m>f(x) = e^{rx}</m> is <me>f'(x) = r\, e^{rx}.</me></p>
+                    </statement>
+                    <description>
+                        <p>In other words, to take the derivative of a natural exponental function (the base is the constant <m>e</m> and the exponent is a multiple of the variable <m>rx</m>), simply <ol><li><em>Multiply</em> the expression by the rate constant <m>r</m>.</li></ol>
+                        Be careful not to apply the power rule <xref ref="theorem-powerrule"/> in a situation where this rule applies! Pay close attention to whether the variable <m>x</m> is in the base (power function) or in the exponent (exponential function).</p>
+                    </description>
+                </theorem>
+
+
+            </subsection>
 
             <exercises>
                 <exercise>
