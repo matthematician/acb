@@ -43,6 +43,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="decision4-math">
             <title>Learn It 4</title>
 
+            <video youtube="o2I3lajJklE"/>
+
             <exercises>
                 <exercise>
                     <title>Read &amp; Discuss: [CH] Chapter 2, The Derivative</title>
@@ -69,6 +71,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="decision4-appl">
             <title>Apply It 4</title>
 
+            <video youtube="dam16G6cZ8k"/>
 
         </section>
         <section xml:id="decision4-proj">

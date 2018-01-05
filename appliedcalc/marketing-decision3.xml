@@ -91,7 +91,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     </p>
 
         <p><term>Algebraic: Derivative as a Function</term>. If we follow the graphical approach of measuring the slope of a function's graph <em>at each point</em>, we can record those slopes at each point and thereby make a new function, called the derivative function <md><mrow>f'(x) \amp\amp \text{or sometimes denoted }\frac{df}{dx}</mrow></md>
-        read as "the derivative of <m>f</m> with respect to <m>x</m>.</p>
+        read as "the derivative of <m>f</m> with respect to <m>x</m>."</p>
         <p>Because the derivative <m>f'</m> measures the slope of the graph of <m>f</m>, there will always be a close relationship between the <em>values</em> of the derivative <m>f'</m> and the <em>direction</em> of the function <m>f</m>, as you can see in the following interactive from PhET Sims:</p>
         <p><url href="https://phet.colorado.edu/sims/calculus-grapher/calculus-grapher_en.html">Click here to launch interactive.<image source="img/phet-deriv.png" width="80%"/></url>
 
@@ -117,6 +117,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </description>
                 </theorem>
 
+                <video youtube="rRphiUtRKcY"/>
+
                 <theorem xml:id="theorem-derivativelinear">
                     <title>Linearity of Derivatives</title>
                     <statement>
@@ -128,6 +130,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         <p>This theorem allows us to take derivatives of sums, differences, and multiples simply by individually taking the derivative of each term.</p>
                     </description>
                 </theorem>
+                <video youtube="1KwW1v__T_0"/>
 
                 <theorem xml:id="theorem-exprule">
                     <title>Derivatives of Exponential Functions</title>
@@ -139,6 +142,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                         Be careful not to apply the power rule <xref ref="theorem-powerrule"/> in a situation where this rule applies! Pay close attention to whether the variable <m>x</m> is in the base (power function) or in the exponent (exponential function).</p>
                     </description>
                 </theorem>
+
+                <video youtube="xgarjF9DP78"/>
 
 
             </subsection>
