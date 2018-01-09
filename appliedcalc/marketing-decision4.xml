@@ -77,6 +77,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="decision4-proj">
             <title>Decision Report 4</title>
 
+            <video youtube="6atsV-v8mZY" />
+
             <p>In your previous decision report (<xref ref="decision3-proj"/>), you determined formulas for revenue <m>R(q)</m> in thousands of dollars, and marginal revenue <m>MR(q)</m> in dollars per unit, and predicted approximately what quantity would maximize revenue. The data table you created also related quantity, price, revenue, and marginal revenue predicted by several of your test markets, such as in this example:</p>
     
             <p><pre>
