@@ -37,10 +37,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
          <section xml:id="decision5-motiv">
             <title>Motivation 5</title>
 
+            <video youtube="tdyqD8yE-l4"/>
 
         </section>
         <section xml:id="decision5-math">
             <title>Learn It 5</title>
+
+            <video youtube="JRZFQlwsz_c"/>
 
             <exercises>
                 <exercise>
@@ -68,11 +71,15 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <section xml:id="decision5-appl">
             <title>Apply It 5</title>
 
+            <video youtube="Z-WQ6edYYZg"/>
+
+            <video youtube="bm89OuI_9N8"/>
 
         </section>
         <section xml:id="decision5-proj">
             <title>Decision Report 5</title>
 
+            <video youtube="Pw63hixJZv8"/>
 
             <p>In your previous decision (<xref ref="decision4-proj"/>), your team set an optimal quantity and price for producing your product. At this price point, a maximum amount of profit would be made. However, your solution assumes that every consumer pays the same price for your product. When you set your price point in the previous decision report, there were some consumers who would buy at your price but <em>would have been willing to pay more</em>. The example data below compares one test market to the optimal solution:</p>
     
