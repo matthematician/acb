@@ -49,14 +49,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
         <date><today /></date>
 
     </titlepage>
-
-    <preface>
-        <video youtube="TyCsV7eO_BU" />
-    </preface>
-    <section xml:id="section-syllabus">
+<!--         <video youtube="TyCsV7eO_BU" />
+ -->
+    <!-- <section xml:id="section-syllabus">
         <title>Syllabus Introduction</title>
         <p>Welcome to <term>MATH 144 Applied Calculus for Business</term>. A discussion of the syllabus and grading system from the first day of the semester is here:</p>
         <video youtube="pCXbGbII2sM"/>
-    </section>
+
+    </section> -->
 
 </frontmatter>

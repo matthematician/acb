@@ -30,7 +30,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     <!-- entire front matter section with more headings   -->
     <author-biographies length="short" />
 
-    <brandlogo url="./" source="images/profit.png" />
+    <brandlogo source="appliedcalc/images/profit.png" />
 
     <!-- Prefix to enhance Sage notebook contents -->
     <initialism>ACB</initialism>

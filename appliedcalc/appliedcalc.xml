@@ -45,17 +45,31 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     
     <book xml:id="applied-calc-business">
         <title>Applied Calculus for Business</title>
-        <!--<subtitle>A Project-Based Approach to Business Decision-Making</subtitle>-->
+        <subtitle>A Project-Based Approach to Business Decision-Making</subtitle>
 
         <xi:include href="./frontmatter.xml" />                 
 
+        <part xml:id="miniproject" >
+            <title>Spurious Correlations, LLC</title>
+            <xi:include href="./miniproject-intro.xml"/>
+            <xi:include href="./miniproject-decision1.xml"/>
+            <xi:include href="./miniproject-decision2.xml"/>
 
-        <xi:include href="./marketing-decision1.xml" />                 
+        </part>
+
+        <part xml:id="project1" >
+            <title>Project 1: Forecasting</title>
+
+        </part>
+        <part xml:id="project2" >
+            <title>Project 2: Market It</title>
+            
+        <!-- <xi:include href="./marketing-decision1.xml" />                 
         <xi:include href="./marketing-decision2.xml" />                 
         <xi:include href="./marketing-decision3.xml" />                 
         <xi:include href="./marketing-decision4.xml" />                 
-        <xi:include href="./marketing-decision5.xml" />
-
+        <xi:include href="./marketing-decision5.xml" /> -->
+        </part>
                                            
 
 

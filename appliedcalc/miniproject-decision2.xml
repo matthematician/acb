@@ -1,0 +1,26 @@
+<chapter xml:id="ch_miniproject2">
+    <title>Your Business Plan</title>
+
+    <!--<p>NB: Now, do the Excel leg work of verifying the correlation one with another using a linear model and an exponential model. Set a target, use algebra to solve for x, predict which year it will happen, write a business plan around it.</p>-->
+
+    <objectives>
+        <ol>
+            <li>
+                <p>
+                    Use the algebraic model of a data set to interpolate and extrapolate from the data.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Use a compound interest model to determine monthly payments for a variety of loan types and terms.
+                </p>
+            </li>
+            <li>
+                <p>
+                    Make, and effectively communicate to both technical and non-technical audiences, a business decision on the basis of conclusions drawn from algebraic models of data.
+                </p>
+            </li>
+        </ol>
+    </objectives>
+
+</chapter>
