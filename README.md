@@ -1,40 +1,13 @@
-MathBook XML
-============
+# Applied Calculus for Business
 
-A lightweight XML application for authors of research articles, textbooks, and monographs.
+## A Project-Based Approach to Business Decision-Making
 
-GPL License.
+Author instructions:
 
-*Be sure* to checkout the dev branch, master is currently a fiction.
-
-Quickstart instructions at project website:  [mathbook.pugetsound.edu](http://mathbook.pugetsound.edu)
-
-Help and development discussions:
-* Support forum/mailing-list: [pretext-support](https://groups.google.com/forum/#!forum/pretext-support)
-* Announcements only, low-volume: [pretext-announce](https://groups.google.com/forum/#!forum/pretext-announce)
-
-
-MathBook XML (MBX) is guided by the following principles:
----------------------------------------------------------
-
-1. MBX is a markup language that captures the structure of
-textbooks and research papers.
-2. MBX is human-readable and human-writable.
-3. MBX documents serve as a single source which can be
-easily converted to multiple other formats, current and future.
-4. MBX respects the good design practices which have been
-developed over the past centuries.
-5. MBX makes it easy for authors to implement features which
-are both common and reasonable.
-6. MBX supports online documents which make use of the full
-capabilities of the Web.
-7. MBX output is styled by selecting from a list of available
-templates, relieving the author of the burden involved
-in micromanaging the output format.
-8. MBX is free: the software is available at no cost, with an
-open license. The use of MBX does not impose any constraints
-on documents prepared with the system.
-9. MBX is not a closed system: documents can be converted to
-LaTeX and then developed using standard LaTeX tools.
-
-
+- Follow instructions at <https://pretextbook.github.io/pretext-cli/installation.html> to install PreTeXt-CLI on your machine
+- Edit source PTX/XML files in the `source` subdirectory.
+- Run `pretext build` on the command-line to build HTML into `output/html`
+  and copy contents of `source/images` into `output/html/images`.
+- Run `cp -r source/pdf output/html` to copy PDFs to `output/html/pdf`.
+    - The contents of `output` are `.gitignore`d to keep your repo clean.
+- Copy the contents of `output/html` to your server to host your book.
