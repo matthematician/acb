@@ -4,9 +4,9 @@
     "version": "2.0.0",
     "tasks": [
         {
-            "label": "HTML process the main oak.xml file",
+            "label": "CLI process the main.ptx file.",
             "type": "shell",
-            "command": "xsltproc --xinclude xsl/mathbook-html.xsl appliedcalc/appliedcalc.xml",
+            "command": "pretext build",
             "problemMatcher": [],
             "group": {
                 "kind": "build",
