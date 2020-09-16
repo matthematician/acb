@@ -27,20 +27,20 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
     
-    <chapter xml:id="marketing-decision5">
+    <section xml:id="marketing-decision5">
         <title>Price Discrimination</title>
 
         <introduction>Hi there.
 
         </introduction>
 
-         <section xml:id="decision5-motiv">
+         <subsection xml:id="decision5-motiv">
             <title>Motivation 5</title>
 
             <video youtube="tdyqD8yE-l4"/>
 
-        </section>
-        <section xml:id="decision5-math">
+        </subsection>
+        <subsection xml:id="decision5-math">
             <title>Learn It 5</title>
 
             <video youtube="JRZFQlwsz_c"/>
@@ -67,16 +67,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </exercises>
 
 
-        </section>
-        <section xml:id="decision5-appl">
+        </subsection>
+        <subsection xml:id="decision5-appl">
             <title>Apply It 5</title>
 
             <video youtube="Z-WQ6edYYZg"/>
 
             <video youtube="bm89OuI_9N8"/>
 
-        </section>
-        <section xml:id="decision5-proj">
+        </subsection>
+        <subsection xml:id="decision5-proj">
             <title>Decision Report 5</title>
 
             <video youtube="Pw63hixJZv8"/>
@@ -122,6 +122,6 @@ Market #4   1181                299.29  353,457         311,768     41,688
 
 
 
-        </section>
-    </chapter>
+        </subsection>
+    </section>
 

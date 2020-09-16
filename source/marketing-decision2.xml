@@ -28,7 +28,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
    
-    <chapter xml:id="marketing-decision2">
+    <section xml:id="marketing-decision2">
         <title>Demand Function</title>
 
         <introduction>
@@ -45,7 +45,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
         </introduction>
 
-        <section xml:id="decision2-motiv">
+        <subsection xml:id="decision2-motiv">
             <title>Motivation 2</title>
 
             <p>Our goal is to determine a <term>demand function</term>, a mathematical mode <m>p = D(q)</m> which best explains the relationship between the quantity sold in the national market <m>q</m> and the unit price we'd charge to sell that quantity, <m>q</m>.</p>
@@ -54,8 +54,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <p>Do it with <emph>Excel</emph>: <video youtube="KmCCFt4qDE0"/></p>
             <p>Do it with <url href="http://www.desmos.com">Desmos</url>: <video youtube="00OWTyN241Q"/></p>
 
-        </section>
-        <section xml:id="decision2-math">
+        </subsection>
+        <subsection xml:id="decision2-math">
             <title>Learn It 2</title>
 
             <exercises>
@@ -79,16 +79,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </exercise>
             </exercises>
 
-        </section>
-        <section xml:id="decision2-appl">
+        </subsection>
+        <subsection xml:id="decision2-appl">
             <title>Apply It 2</title>
             <p>The <m>x</m>- and <m>y</m>-intercepts of an applied function model almost always tell us something meaningful and interesting. Finding them is a snap once we have a model equation, using what we know from precalculus:</p>
             <ol><li>To find a <m>y</m>-intercept, set <m>x</m> equal to zero and solve for <m>y</m>. That is, compute the value of <m>y=f(0)</m>. (This usually requires only arithmetic and no algebra.)</li>
             <li>To find a <m>x</m>-intercept, set <m>y</m> equal to zero and solve for <m>x</m>. This often requires considerably more algebraic technique, and is sometimes not feasible without technology.</li></ol>
             <p>Here's how that plays out with Decision Report 2's demand function:<video youtube="iX0MuuybIWU"/></p>
 
-        </section>
-        <section xml:id="decision2-proj">
+        </subsection>
+        <subsection xml:id="decision2-proj">
             <title>Decision Report 2</title>
 
             <p>In your previous decision report (<xref ref="decision1-proj"/>), your team constructed a table of data relating quantities <m>q</m> (in thousands) and prices <m>p</m> (in dollars per unit) for your product's projected sales on the national market.</p>
@@ -118,5 +118,5 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </exercise>
             </exercises>
 
-        </section>
-    </chapter>
+        </subsection>
+    </section>

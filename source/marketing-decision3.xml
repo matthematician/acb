@@ -27,7 +27,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
     
-    <chapter xml:id="marketing-decision3">
+    <section xml:id="marketing-decision3">
         <title>Total &amp; Marginal Revenue</title>
 
         <introduction><p>After the previous two Decision Reports you now have a full understanding of the demand for your product --- that is, you've modeled the relationship between the price point you charge <m>p</m> and the total number of sales quantity in the national market at that price <m>q</m>, and that relationship is captured in the demand function <m>p = D(q)</m>.</p>
@@ -45,7 +45,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
         </introduction>
 
-         <section xml:id="decision3-motiv">
+         <subsection xml:id="decision3-motiv">
             <title>Motivation 3</title>
 
             <introduction>
@@ -53,7 +53,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             </introduction>
             
 
-            <subsection xml:id="derivs-motiv">
+            <subsubsection xml:id="derivs-motiv">
                 <title>Derivatives: The Why</title>
 
    <p>We could begin this discussion by focusing again on the demand function from our previous Decision Reports. What can we learn from how this function <em>changes</em> from one point to the next, that is, how a change in the independent variable quantity (<m>q</m>) effects a change in the dependent variable price (<m>p = D(q)</m>)?</p>
@@ -75,9 +75,9 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             <p>Referring back to the marginal demand computation in <xref ref="marginal-demand"/>, where we found in our example that <m>MD(400) \approx -0.37</m>, we'll see next that this quantity can be expressed and communicated in four important ways: <ol><li>Numerically, as a rate of change: "<m>-\$0.37</m> per thousand units of increase."</li><li>Graphically, as the <em>slope</em> of the demand graph at <m>q=400</m>, or more specifically the slope of a line drawn tangent to the grpah at this point, as in the purple line below: <image source="img/demandgraph-slope.png" width="80%"/></li><li>In writing, as in <xref ref="marginal-demand"/>, and lastly,</li><li>In a formula, by deriving an expression for <m>MD(q)</m> and then evaluating it at <m>q=400</m>. Just how we <em>get</em> that formula is the subject of <xref ref="decision3-math"/>.</li></ol></p>
 
-            </subsection>
+            </subsubsection>
 
-            <subsection xml:id="derivs-four">
+            <subsubsection xml:id="derivs-four">
                 <title>Derivatives: The What, and the Rule of Four</title>
 
                 <p><term>Numerical: Derivative as a Rate of Change</term>
@@ -98,13 +98,13 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
     </p>
 
-            </subsection>
+            </subsubsection>
 
-        </section>
-        <section xml:id="decision3-math">
+        </subsection>
+        <subsection xml:id="decision3-math">
             <title>Learn It 3</title>
 
-            <subsection xml:id="derivs-how">
+            <subsubsection xml:id="derivs-how">
                 <title>Derivatives: The How</title>
 
                 <theorem xml:id="theorem-powerrule">
@@ -146,7 +146,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 <video youtube="xgarjF9DP78"/>
 
 
-            </subsection>
+            </subsubsection>
 
             <exercises>
                 <exercise>
@@ -173,16 +173,16 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
 
-        </section>
-        <section xml:id="decision3-appl">
+        </subsection>
+        <subsection xml:id="decision3-appl">
             <title>Apply It 3</title>
 
             <p>Let's turn our attention to the revenue function, to prepare for the upcoming decision report. What can we learn from marginal analysis of the revenue function, using each of the Rule of Four (<xref ref="derivs-four"/>)?</p>
             <p><url href="https://www.desmos.com/calculator/7h7fb6licj">Click to launch interactive.<image source="img/revenue-desmos.png" width="80%"/></url></p>
 
 
-        </section>
-        <section xml:id="decision3-proj">
+        </subsection>
+        <subsection xml:id="decision3-proj">
             <title>Decision Report 3</title>
 
             <p>In your previous decision report (<xref ref="decision2-proj" />), your team determined a quadratic function <m>p = D(q)</m> which best fits the demand relationship between quantity of items sold <m>q</m> (in thousands) and sale price <m>p</m> (in dollars per unit) on the national market for your product. This function looked something like the example below:
@@ -220,7 +220,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </exercise>
             </exercises>
 
-        </section>
-    </chapter>
+        </subsection>
+    </section>
 
 

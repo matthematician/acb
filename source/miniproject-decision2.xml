@@ -1,4 +1,4 @@
-<chapter xml:id="ch_miniproject2">
+<section xml:id="ch_miniproject2">
     <title>Your Business Plan</title>
 
     <!--<p>NB: Now, do the Excel leg work of verifying the correlation one with another using a linear model and an exponential model. Set a target, use algebra to solve for x, predict which year it will happen, write a business plan around it.</p>-->
@@ -23,4 +23,4 @@
         </ol>
     </objectives>
 
-</chapter>
+</section>

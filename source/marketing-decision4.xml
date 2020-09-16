@@ -28,19 +28,19 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
     
-    <chapter xml:id="marketing-decision4">
+    <section xml:id="marketing-decision4">
         <title>Maximizing Profit</title>
 
         <introduction>Hi there.
 
         </introduction>
 
-         <section xml:id="decision4-motiv">
+         <subsection xml:id="decision4-motiv">
             <title>Motivation 4</title>
 
 
-        </section>
-        <section xml:id="decision4-math">
+        </subsection>
+        <subsection xml:id="decision4-math">
             <title>Learn It 4</title>
 
             <video youtube="o2I3lajJklE"/>
@@ -67,14 +67,14 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </exercise>
             </exercises>
 
-        </section>
-        <section xml:id="decision4-appl">
+        </subsection>
+        <subsection xml:id="decision4-appl">
             <title>Apply It 4</title>
 
             <video youtube="dam16G6cZ8k"/>
 
-        </section>
-        <section xml:id="decision4-proj">
+        </subsection>
+        <subsection xml:id="decision4-proj">
             <title>Decision Report 4</title>
 
             <video youtube="6atsV-v8mZY" />
@@ -118,5 +118,5 @@ Market #    q (thous)   p ($/u) R ($thous)  MR ($/unit) MC ($/unit) MP ($/unit)
 
             </exercises>
 
-        </section>
-    </chapter>
+        </subsection>
+    </section>

@@ -1,4 +1,4 @@
-<chapter xml:id="ch_miniproject1">
+<section xml:id="ch_miniproject1">
     <title>The Trend Over Time</title>
     <!--<p>NB: Choose a correlate you want to build a business on. Then, choose one of its highest correlates that could help you find your market. Begin by correlating each one to a time scale (years since 1999 or whatever).</p>-->
 
@@ -21,9 +21,8 @@
             </li>
         </ol>
     </objectives>
-    <section>
-        <title>You need a title for your section to appear.</title>
-    </section>
+ 
+ 
     <worksheet xml:id="miniproj_decision1">
         <title>Decision Report 1: What's My Lane?</title>
         <p>Stuff.</p>
@@ -31,4 +30,4 @@
     </worksheet>
 
 
-</chapter>
+</section>
