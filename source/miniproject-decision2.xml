@@ -12,7 +12,7 @@
             </li>
             <li>
                 <p>
-                    Use a compound interest model to determine monthly payments for a variety of loan types and terms.
+                    Use a compound interest model to determine present value of an investment.
                 </p>
             </li>
             <li>
@@ -23,4 +23,104 @@
         </ol>
     </objectives>
 
+<worksheet xml:id="miniproj_decision2">
+    <title>Decision Report 2: Profit Scenarios</title>
+
+    <p>In <xref ref="miniproj_decision1" text="title"/> you identified a marketing opportunity for a product whose demand could be correlated to an unexpected factor outside of the market. To complete your business plan, you'll need to show investors when they can expect your business to become profitable, and what return they can expect on their investment.
+    </p>
+
+    <exercise>
+        <statement>
+            <p>
+                Return to your <em>Excel</em> workbook from <xref ref="miniproj_decision1" text="title"/>. Create two new scatter plots and linear regression trend lines: one each for 
+                <ol>
+                   <li><p>Your correlated quantity vs. time (<m>x</m> vs. <m>t</m>).</p></li>
+                    <li><p>Your target quantity vs. time (<m>y</m> vs. <m>t</m>).</p></li>
+                </ol>
+                You should end up with three plots, and three regression equations, in total.
+            </p>
+            <figure xml:id="fig_allcorr">
+                <image source="images/allcorr.JPG" width="90%"/>
+                <caption>
+                    Be sure to re-label the variables in your regression equations appropriately, using <m>t,x,y</m> as appropriate for each plot. Also, extend each horizontal axis so that the year 2030 is visible. You'll also want to extend the trend line on the plot to the year 2030 as well (since this data ended in 2008, we extend it <q>22 periods forward</q> in the trend line's <em>Forecasting</em> feature).
+                </caption>
+            </figure>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>You are privately hoping that your product will be <em>profitable in the year 2025.</em> Using the <em>equation</em> for your <m>y</m>-versus-<m>t</m> function model, determine how many units of your product you would expect to be selling in the year 2025. <mdn><mrow xml:id="eq_targety">y=\underline{\hspace{1in}}.</mrow></mdn>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>Using the <em>equation</em> for your <m>y</m>-versus-<m>x</m> function model (the equation you found in <xref ref="exercise-5"/>), determine the value of the correlated quantity <m>x</m> when you will have reached your target quantity from <xref ref="eq_targety"/>. <mdn><mrow xml:id="eq_targetx">x=\underline{\hspace{1in}}.</mrow></mdn>
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>Using the <em>equation</em> for your <m>x</m>-versus-<m>t</m> function model, determine in which year the time-series model predicts the correlated quantity will reach its target from <xref ref="eq_targetx"/>. <mdn><mrow xml:id="eq_targett">t=\underline{\hspace{1in}}, \text{ or the year } \underline{\hspace{1in}}.</mrow></mdn>
+
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>The prediction made in the previous step <em>might</em> not be the same as the 2025 you're hoping for. Why do you think that is? Which is the <q>best-case</q> scenario for your business plan, and which is the <q>worst-case</q> scenario?</p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>Decide how much venture capital you'll be asking investors for in your business plan. Explain how you decided on this number, referencing the costs of the product you plan to sell. (Don't sweat these details too much for our course. We mainly just need a number.)
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>Your venture capital investors <url href="https://hbr.org/1998/11/how-venture-capital-works">will want a return on their investment</url> of at least 25% per year. Determine the total amount of returns they would be expecting over the ten-year period from 2020 to 2030 under this scenario.
+            </p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>Suppose you were to return this amount to them in a single installment in 2030. <url href="https://www.usinflationcalculator.com/inflation/current-inflation-rates/">Using current rates of inflation</url> and a compound interest formula, determine the value of this money in today's (2020) dollars.</p>
+        </statement>
+    </exercise>
+
+    <exercise>
+        <statement>
+            <p>Finally, turn your responses to these questions <em>and</em> <xref ref="miniproj_decision1" text="title"/> into a single writeup of your business plan. Your writeup should be a maximum of two pages, single-spaced, not including any graphs or tables, and should not include question numbers. Your readers should be able to understand your plan without seeing this worksheet of questions.</p>
+
+            <p>Be sure that your final plan:
+                <ol>
+                    <li>
+                        <p>
+                            Includes brief summaries of the <url href="https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan">key elements of a business plan</url>.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Gives readers both the best- and worst-case scenarios for your dates of profitability, and how the <q>correlated</q> quantity (<m>x</m>) will tell them when that profitability date has arrived.
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            Includes both the technical details of the computations (algebra) you made in this activity, and all written reasoning, graphs, and data tables that support your plan.
+                        </p>
+                    </li>
+                </ol>
+            </p>
+        </statement>
+    </exercise>
+
+</worksheet>
 </section>

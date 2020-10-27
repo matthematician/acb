@@ -10,7 +10,7 @@
 
         <xi:include href="./frontmatter.xml" />
 
-        <chapter xml:id="miniproject" >
+        <chapter xml:id="miniproject" xmlns:xi="http://www.w3.org/2001/XInclude">
             <title>Spurious Correlations, LLC</title>
             <xi:include href="./miniproject-intro.xml"/>
             <xi:include href="./miniproject-decision1.xml"/>
@@ -18,15 +18,17 @@
 
         </chapter>
 
-        <chapter xml:id="project1" >
+       <!-- <chapter xml:id="project1" >
             <title>Project 1: Forecasting</title>
 
         </chapter>
+        -->
+        
         <chapter xml:id="project2" >
-            <title>Project 2: Market It</title>
+            <title>Team Project: Market It</title>
 
-        <!-- <xi:include href="./marketing-decision1.xml" />
-        <xi:include href="./marketing-decision2.xml" />
+        <xi:include href="./marketing-decision1.xml" />
+        <!-- <xi:include href="./marketing-decision2.xml" />
         <xi:include href="./marketing-decision3.xml" />
         <xi:include href="./marketing-decision4.xml" />
         <xi:include href="./marketing-decision5.xml" /> -->

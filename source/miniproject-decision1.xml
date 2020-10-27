@@ -25,9 +25,127 @@
  
     <worksheet xml:id="miniproj_decision1">
         <title>Decision Report 1: What's My Lane?</title>
-        <p>Stuff.</p>
-        <p>Your worksheet should be contained in a chapter, not a section.</p>
+        <p>The first step in this project is to <em>find a market opportunity.</em> To do that, you'll find historical data on a quantity of interest to you, <em>and</em> a second quantity that's both <term>(a)</term> highly correlated with yours, and <term>(b)</term> that you -- and your competitors -- wouldn't expect to be correlated with yours!</p>
+
+        <p>You'll design a fictitious product or service around the first quantity, and then a marketing plan around the second quantity. Using an algebraic model of their correlation, you'll predict where both will be in five years, to estimate the size of the market for your product and a marketing budget.
+        </p>
+
+        <exercise>
+            <statement>
+                <p>
+                    Visit the <url href="https://tylervigen.com/discover">Spurious Correlations</url> website at <url href="https://tylervigen.com/discover"/> and browse the list of available categories of <q>Interesting Variables</q>. Select <em>View variables</em> to see the data sets available in each category.
+                </p>
+
+                <p>
+                    Find a variable that you'd like to design a product or service around. For example, if I select <q>Precipitation in Plymouth County, MA</q>, I might decide to market a Plymouth Rock-shaped rain meter with wireless smart-home integration. <em>Your product or service should be one whose demand will increase when your variable increases.</em> (More precipitation in Plymouth County means I'll sell more Plymouth Rock rain meters.)
+                </p>
+
+                <p>
+                    Describe the variable you selected, and the product/service you would market to match it. You'll put some of this information in your business plan, so be creative. Spark your readers' interest and excitement!
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    With your variable shown on the website, select <em>Correlate</em> to discover other variables that are correlated with yours. You'll see that each option shows two things: how many years' worth of data has been correlated, and the <term>correlation coefficient</term>, of each variable's correlation to yours. 
+                </p>
+
+                <figure xml:id="fig_correlation">
+                <image source="images/correlation.JPG" width="90%"/>
+                <caption>The correlation coefficient is shown in parentheses for each.
+                </caption>
+                </figure>
+
+                <p>Find a variable in this list for which all of the following are true:
+                    <ul>
+                        <li>
+                            <p>
+                                At least 6 years' of data are included in the correlation,
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The variable is seemingly unrelated to your other variable of interest, and
+                            </p>
+                        </li>
+                        <li>
+                            <p>
+                                The correlation coefficient is as high as possible, given the above two criteria.
+                            </p>
+                        </li>
+                    </ul>
+
+                    For example, here I'm selecting <q>US Uranium Exports</q> because it has 10 years of data to correlate, uranium exports seem totally unrelated to precipitation in Plymouth County (unlike the other precipitation-related variables in this list), and the correlation coefficient <m>\approx 0.795</m> is the highest among variables in my list that meet the previous two criteria.
+                </p>
+
+                <p>Describe the variable you selected, and why it meets all of the criteria necessary for this step.</p>
+            </statement>
+    
+        </exercise>
+
+        <exercise>
+            <statement>
+                <p>
+                    With your selected variable shown on the website, click <em>Chart</em>. 
+                </p>
+
+                <figure xml:id="fig_corrgraph">
+                    <image source="images/corrgraph.JPG" width="90%"/>
+                    <caption>Right-click and save the image of the graph. Also, right-click the <em> Permalink</em> and choose <em>Copy link address...</em> Paste this link in your project folder so you can return to this page easily when needed.</caption>
+                </figure>
+
+            <p>Then, open a blank <em>Excel</em> workbook and enter the data shown in the page, including the years and both data series. You'll want to subtract 2000 to rescale the years to be <q>Years since 2000</q>, for simplicity in your algebra later.</p>
+
+            <p><pre>
+        t   Years since 2000    -1      0       1       2       3       4       5       6       7       8
+        x   Precipitation       2.97    3.2     2.93    3.34    3.71    3.11    4.08    3.72    3.04    4.08
+        y   Uranium exports     8.5     13.6    11.7    15.4    13.2    13.2    20.5    18.7    14.8    17.2
+            </pre></p>
+
+            </statement>
+
+        </exercise>
+        <exercise>
+            <statement>
+                <p>Use <em>Excel</em> to generate a <term>scatter plot</term> of your two variables <m>x</m> and <m>y</m> (you will not use the <q>years</q> data in this plot). Plot <em>only</em> the points; do not connect them lines or curves.
+                </p>
+                <figure xml:id="fig_excel1">
+                    <image source="images/excelcorr.JPG" width="90%"/>
+                    <caption>Plotting your two variables of interest against one another in a scatter plot.</caption>
+                </figure>
+                <p>Make sure that your graph includes a title, axis labels, and a scale that makes the range of data points visible. <url source="https://flowingdata.com/2010/07/22/7-basic-rules-for-making-charts-and-graphs/">The FlowingData blog</url> has some good tips and explanations for creating graphs that are meaningful.
+                </p>
+            </statement>
+        </exercise>
+
+        <exercise xml:id="exercise-5">
+            <statement>
+                <p>
+                    Finally, use <em>Excel</em> to add a linear trendline to this scatter plot, and display its formula and correlation coefficient on your chart.
+                </p>
+                <figure xml:id="fig_excel2">
+                    <image source="images/excelcoeff.JPG" width="90%"/>
+                    <caption>Note that <em>Excel</em>'s correlation coefficient <m>R^2</m> is the <em>square</em> of the coefficient reported on the website: <m>0.795^2 \approx 0.632</m>.</caption>
+                </figure>
+                <p>In 1-2 sentences each, explain the meaning of the numbers in <term>(a)</term> the slope parameter and <term>(b)</term> the intercept parameter from your linear model equation, including units, but using language that a less-technical audience would understand. For example:</p>
+                <p><pre>
+The slope of this equation is 6.2337 million pounds per mm. This number tells us
+that an increase of 1 mm in average daily precipitation in Plymouth County
+is associated with an increase of approximately 6 million pounds of uranium
+exported by the United States in that year.
+                </pre></p>
+            </statement>
+        </exercise>
+        <exercise>
+            <statement>
+                <p>
+                    Turn your responses to all the previous questions into a single writeup of this activity. Your writeup should be a maximum of one page, single-spaced, not including any graphs or tables, and should not include question numbers: your readers should be able to understand your paper without seeing this worksheet of questions.
+                </p>
+            </statement>
+        </exercise>
+
     </worksheet>
-
-
 </section>
+

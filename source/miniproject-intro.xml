@@ -2,4 +2,15 @@
     <p><em>What happens on the journey from data to a decision?</em> This is the central question that motivates us in applied business calculus, and this first <q>mini-project</q> is an opportunity to take that journey on a small scale.</p>
     <p>In this project, your goal is to write a draft of a short business plan for your own (presumably fictitious) sole proprietorship. Using real data, you'll identify a trend that you think has profit potential in the next 3-5 years; a seemingly-unrelated <em>and yet highly correlated</em> trend that tracks it closely; and put together a proposal to capitalize on them both.</p>
     <p>The goal of this mini-project is to become accustomed to the data-driven process of decision-making, from data sourcing and collection, to data entry and modeling using <em>Excel</em>, to analysis and communication of your results in written form.</p>
+
+    <objectives>
+        <ol>
+        <li><p><em>ROLE:</em> In this project you're assuming the role of an entrepreneur developing a business plan for a new sole proprietorship. (You want this to be your new <q>side hustle</q>, at least for now.)</p></li>
+        <li><p><em>AUDIENCE:</em> You'll be sharing your business plan with potential investors and venture capitalists. Some of them will be technical and will want to see all your detailed analysis and computations; others will be less technical and looking for big-picture meanings in your work. Your written business plan should be capable of speaking to both audiences.</p></li>
+        <li><p><em>FORMAT:</em> Produce an executive-summary business plan of no more than two (2) written pages, not counting any graphs, data tables, and formulas you may wish to include to support your reasoning. Use 1-inch margins, single-spacing, and a professional-looking 12-point font.</p></li>
+       <li> <p><em>TOPIC:</em> Your executive summary should briefly address the <url href="https://www.sba.gov/business-guide/plan-your-business/write-your-business-plan">key elements of a business plan</url> (SBA.gov), such as: what is your product or service? What is your business's mission statement? What market trends justify the demand for your product? How much startup capital are you asking for, and (most importantly) why?</p></li>
+        </ol>
+    </objectives>
+    
+
 </introduction>
