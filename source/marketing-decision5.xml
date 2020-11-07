@@ -30,7 +30,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     <section xml:id="marketing-decision5">
         <title>Price Discrimination</title>
 
-        <introduction>Hi there.
+        <!-- <introduction>Hi there.
 
         </introduction>
 
@@ -40,6 +40,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <video youtube="tdyqD8yE-l4"/>
 
         </subsection>
+        -->
         <subsection xml:id="decision5-math">
             <title>Learn It 5</title>
 

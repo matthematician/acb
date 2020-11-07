@@ -31,7 +31,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
     <section xml:id="marketing-decision4">
         <title>Maximizing Profit</title>
 
-        <introduction>Hi there.
+       <!-- <introduction>Hi there.
 
         </introduction>
 
@@ -40,6 +40,8 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
 
         </subsection>
+        -->
+        
         <subsection xml:id="decision4-math">
             <title>Learn It 4</title>
 
