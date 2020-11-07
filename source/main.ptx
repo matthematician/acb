@@ -27,6 +27,12 @@
         <chapter xml:id="project2" >
             <title>Team Project: Market It</title>
 
+        <introduction>
+            <p><em>Market It!</em> is a marketing project adapted from the University of Arizona's <q>Mathematics for Business Decisions</q>. In this project you'll use a simple set of test-marketing data to perform a sophisticated analysis of profit maximization and the potential value of price discrimination.</p>
+            <p>An introduction to the five Decision Reports that comprise this version of the project is shown below.
+            <video youtube="h8JrQbGhV2Bo"/></p>
+        </introduction>
+
         <xi:include href="./marketing-decision1.xml" />
         <xi:include href="./marketing-decision2.xml" />
         <xi:include href="./marketing-decision3.xml" />
