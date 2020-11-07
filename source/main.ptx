@@ -28,10 +28,10 @@
             <title>Team Project: Market It</title>
 
         <xi:include href="./marketing-decision1.xml" />
-        <!-- <xi:include href="./marketing-decision2.xml" />
+        <xi:include href="./marketing-decision2.xml" />
         <xi:include href="./marketing-decision3.xml" />
         <xi:include href="./marketing-decision4.xml" />
-        <xi:include href="./marketing-decision5.xml" /> -->
+        <xi:include href="./marketing-decision5.xml" />
         </chapter>
 
         <xi:include href="./backmatter.xml" />                  <!-- GFDL, Hints, Notation -->

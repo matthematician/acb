@@ -45,7 +45,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             <video youtube="o2I3lajJklE"/>
 
-            <exercises>
+            <!-- <exercises>
                 <exercise>
                     <title>Read &amp; Discuss: [CH] Chapter 2, The Derivative</title>
                     <statement>
@@ -66,6 +66,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </statement>
                 </exercise>
             </exercises>
+            -->
 
         </subsection>
         <subsection xml:id="decision4-appl">

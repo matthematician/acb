@@ -148,7 +148,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             </subsubsection>
 
-            <exercises>
+            <!-- <exercises>
                 <exercise>
                     <title>Read &amp; Discuss: [CH] Chapter 2, The Derivative</title>
                     <statement>
@@ -169,7 +169,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </statement>
                 </exercise>
             </exercises>
-
+            -->
 
 
 

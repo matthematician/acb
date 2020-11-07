@@ -55,7 +55,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
             <p>Do it with <url href="http://www.desmos.com">Desmos</url>: <video youtube="00OWTyN241Q"/></p>
 
         </subsection>
-        <subsection xml:id="decision2-math">
+       <!-- <subsection xml:id="decision2-math">
             <title>Learn It 2</title>
 
             <exercises>
@@ -79,7 +79,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                 </exercise>
             </exercises>
 
-        </subsection>
+        </subsection> -->
         <subsection xml:id="decision2-appl">
             <title>Apply It 2</title>
             <p>The <m>x</m>- and <m>y</m>-intercepts of an applied function model almost always tell us something meaningful and interesting. Finding them is a snap once we have a model equation, using what we know from precalculus:</p>

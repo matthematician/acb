@@ -45,7 +45,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
 
             <video youtube="JRZFQlwsz_c"/>
 
-            <exercises>
+           <!-- <exercises>
                 <exercise>
                     <title>Read &amp; Discuss: [CH] Chapter 3, The Integral</title>
                     <statement>
@@ -65,7 +65,7 @@ along with MathBook XML.  If not, see <http://www.gnu.org/licenses/>.
                     </statement>
                 </exercise>
             </exercises>
-
+        -->
 
         </subsection>
         <subsection xml:id="decision5-appl">
